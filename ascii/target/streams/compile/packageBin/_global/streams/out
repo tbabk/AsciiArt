@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\ascii_3-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Filter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Filter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Filter.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Filter.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GreyScaleConverter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\GreyScaleConverter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GreyScaleConverter.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\GreyScaleConverter.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GreyScaleImg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\GreyScaleImg.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	GreyScaleImg.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\GreyScaleImg.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImageLoader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\ImageLoader$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImageLoader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\ImageLoader.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ImageLoader.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\ImageLoader.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Invert.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Invert.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Invert.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Invert.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\main$package$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\main$package.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\main$package.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\main.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Rotate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Rotate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Rotate.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Rotate.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Scale.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Scale.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Scale.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Scale.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transform.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Transform.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Transform.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes\Transform.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

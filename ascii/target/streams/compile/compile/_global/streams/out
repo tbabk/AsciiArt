@@ -1,0 +1,49 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:2:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  [33mdef[0m [36mapply[0m([36mimg[0m: [35mAsciiImg[0m) : [35mAsciiImg[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                 ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                 Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:2:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  [33mdef[0m [36mapply[0m([36mimg[0m: [35mAsciiImg[0m) : [35mAsciiImg[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                             ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                             Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:8:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                          ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                          Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:8:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                     Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:14:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:14:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:21:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:21:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m

@@ -1,0 +1,56 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(b62126b9-8360-47d7-94e3-2df3f551c008), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:2:17 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  [33mdef[0m [36mapply[0m([36mimg[0m: [35mAsciiImg[0m) : [35mAsciiImg[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                 ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                 Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:2:29 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m2 |[0m  [33mdef[0m [36mapply[0m([36mimg[0m: [35mAsciiImg[0m) : [35mAsciiImg[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                             ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                             Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:8:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                          ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                          Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:8:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                     Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:14:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:14:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m14 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:21:26 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                          ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                          Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\Filter.scala:21:37 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m21 |[0m  [33moverride[0m [33mdef[0m apply(img: AsciiImg): AsciiImg = {[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                     ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                     Not found: type AsciiImg[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed 24. 10. 2024 10:38:13[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

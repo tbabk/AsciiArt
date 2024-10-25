@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(397fd63c-171a-496b-bf29-dca273036a90), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\src\main\scala\main.scala:6:88 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m6 |[0m  [33mval[0m [36mc[0m: [35mString[0m = [31m"$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\\"[0m^`'. "[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                        ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                                unclosed quoted identifier[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 21. 10. 2024 15:57:39[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

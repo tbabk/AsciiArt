@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 8 products, 4 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/ImageLoader.scala, ${BASE}/src/main/scala/Transform.scala, ${BASE}/src/main/scala/GreyScaleConverter.scala, ${BASE}/src/main/scala/main.scala, ${BASE}/src/main/scala/Filter.scala, ${BASE}/src/main/scala/GreyScaleImg.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/GreyScaleConverter.scala, ${BASE}/src/main/scala/GreyScaleImg.scala, ${BASE}/src/main/scala/Filter.scala, ${BASE}/src/main/scala/Transform.scala), removed = Set(${BASE}/src/main/scala/AsciiConverter.scala, ${BASE}/src/main/scala/Image.scala), changed = Set(${BASE}/src/main/scala/main.scala), unmodified = ...),Set(${BASE}/target/scala-3.3.3/classes/main$package$.class, ${BASE}/target/scala-3.3.3/classes/Image.class, ${BASE}/target/scala-3.3.3/classes/main$package.class, ${BASE}/target/scala-3.3.3/classes/main.class, ${BASE}/target/scala-3.3.3/classes/AsciiImg.class, ${BASE}/target/scala-3.3.3/classes/AsciiConverter.class, ${BASE}/target/scala-3.3.3/classes/ImageLoader.class),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set(${BASE}/src/main/scala/AsciiConverter.scala, ${BASE}/src/main/scala/Image.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/src/main/scala/GreyScaleConverter.scala, ${BASE}/src/main/scala/GreyScaleImg.scala, ${BASE}/src/main/scala/Filter.scala, ${BASE}/src/main/scala/Transform.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(${BASE}/target/scala-3.3.3/classes/main$package$.class, ${BASE}/target/scala-3.3.3/classes/Image.class, ${BASE}/target/scala-3.3.3/classes/main$package.class, ${BASE}/target/scala-3.3.3/classes/main.class, ${BASE}/target/scala-3.3.3/classes/AsciiImg.class, ${BASE}/target/scala-3.3.3/classes/AsciiConverter.class, ${BASE}/target/scala-3.3.3/classes/ImageLoader.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(AsciiConverter, main, AsciiImg, main$package, Image)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(${BASE}/src/main/scala/ImageLoader.scala, ${BASE}/src/main/scala/AsciiConverter.scala, ${BASE}/src/main/scala/main.scala, ${BASE}/src/main/scala/Image.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(AsciiConverter, main, AsciiImg, main$package, Image)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/ImageLoader.scala, ${BASE}/src/main/scala/AsciiConverter.scala, ${BASE}/src/main/scala/Transform.scala, ${BASE}/src/main/scala/GreyScaleConverter.scala, ${BASE}/src/main/scala/main.scala, ${BASE}/src/main/scala/Filter.scala, ${BASE}/src/main/scala/Image.scala, ${BASE}/src/main/scala/GreyScaleImg.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: AsciiConverter, main, AsciiImg, main$package, Image[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 6 Scala sources to C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\tbabk\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-sbt-bridge\3.3.3\scala3-sbt-bridge-3.3.3.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5ea7182f for Scala Compiler version 3.3.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\tbabk\OneDrive - České vysoké učení technické v Praze\Dokumenty\ascii\target\scala-3.3.3\classes;C:\Users\tbabk\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala3-library_3\3.3.3\scala3-library_3-3.3.3.jar;C:\Users\tbabk\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.5923136 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
