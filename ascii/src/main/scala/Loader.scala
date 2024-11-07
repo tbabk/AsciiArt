@@ -1,5 +1,5 @@
 import java.awt.image.BufferedImage
-import java.io.File
+import java.io._
 import javax.imageio.ImageIO
 
 class Loader {
