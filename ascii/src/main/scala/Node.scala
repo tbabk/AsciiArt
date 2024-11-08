@@ -17,7 +17,7 @@ class FilterNode_(f: Filter) extends Node[Filter, GreyScaleImg, GreyScaleImg] {
 }
 
 class FilterApplier(inputImg: GreyScaleImg) {
- var img = inputImg
+ var img: GreyScaleImg = inputImg
  var first : Option[Node[Filter, GreyScaleImg, GreyScaleImg]] = None
  var last : Option[Node[Filter, GreyScaleImg, GreyScaleImg]] = None
 

@@ -1,6 +1,7 @@
 import java.io._
 
-class Outputer {
+abstract class Outputer {
+  def output() : Unit
 }
 
 class FileOutputer(img_ : AsciiImg, filePath: String) extends Outputer {
@@ -8,7 +9,7 @@ class FileOutputer(img_ : AsciiImg, filePath: String) extends Outputer {
   val img_height : Int = img_.getHeight()
   val img: AsciiImg = img_
 
-  def output() : Unit = {
+  override def output() : Unit = {
     try {
       val fw = new FileWriter(filePath)
       for (i <- 0 until img_width) {
@@ -36,7 +37,7 @@ class ConsoleOutputer(img_ : AsciiImg) extends Outputer {
   val img_height : Int = img_.getHeight()
   val img: AsciiImg = img_
 
-  def output() : Unit = {
+  override def output() : Unit = {
     for (i <- 0 until img_width) {
       for (j <- 0 until img_height) {
         print(img.getPixel(i, j))

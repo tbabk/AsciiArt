@@ -1,6 +1,6 @@
 
 @main
-def main(): Unit = {
+def main(args: String): Unit = {
   println("Hello world!")
   val c = 0.25
   if (c == 0.25)

@@ -6,7 +6,26 @@ class Rotate(degree_ : Int) extends Filter {
   val degree = degree_
 
   override def apply(img: GreyScaleImg): GreyScaleImg = {
-    ???
+    val (new_width, new_height, coorMapping) = degree match {
+      case 90 | -270 =>
+        (img.getHeight(), img.getWidth(), (x: Int, y: Int) => (y, img.getHeight() - x - 1))
+      case 180 | -180 =>
+        (img.getWidth(), img.getHeight(), (x: Int, y: Int) => (img.getHeight() - x - 1, img.getWidth() - y - 1))
+      case 270 | -90 =>
+        (img.getHeight(), img.getWidth(), (x: Int, y: Int) => (img.getWidth() - y - 1, x))
+      case 360 | -360 =>
+        (img.getWidth(), img.getHeight(), (x: Int, y: Int) => (x, y))
+      case _ =>
+        throw new Exception("Only rotation by n*90 for now!")
+    }
+
+    var rotatedImgMatrix = Array.ofDim[Int](new_width, new_height)
+
+    for (x <- 0 until img.getWidth(); y <- 0 until img.getHeight()) {
+      val (new_x, new_y) = coorMapping(x, y)
+      rotatedImgMatrix(new_x)(new_y) = img.getPixel(x, y)
+    }
+    new GreyScaleImg(new_width, new_height, rotatedImgMatrix)
   }
 }
 
