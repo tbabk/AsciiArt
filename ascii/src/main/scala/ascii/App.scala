@@ -9,6 +9,7 @@ import java.awt.image.BufferedImage
 class App(args: Array[String]) {
   private var greyscale_max : Int = 255
 
+  // TODO DEFAULT TABLE
 
   private var parser : ConsoleParser = new ConsoleParser()
   private var importer : Importer = new Importer()
@@ -149,7 +150,10 @@ class App(args: Array[String]) {
   def run() : Unit = {
     val console_parsed : consoleParsed = parser.parse(args)
     createInput(console_parsed.img)
-    createTransform(console_parsed.table)
+
+    if (console_parsed.table.isDefined) {
+      createTransform(console_parsed.table.get)
+    }
     if (gs_img.isEmpty) { // aka not random
       createGreyscaleImg()
     }

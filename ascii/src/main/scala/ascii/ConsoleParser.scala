@@ -1,7 +1,5 @@
 package ascii
 
-import javax.xml.validation.Validator
-
 case class inFilter(name: String, value: Option[String] = None)
 case class inOutput(target: String, path: Option[String] = None)
 // tables
@@ -20,7 +18,7 @@ case class RandomImg()
 case class consoleParsed(
                            img: Either[ExistImg, RandomImg],
                            out: List[inOutput],
-                           table: Either[definedTable, customTable],
+                           table: Option[Either[definedTable, customTable]],
                            filters: List[inFilter],
                          )
 
@@ -63,7 +61,7 @@ class ConsoleParser {
     var i = 0
     while (i < args.length) {
       args(i) match {
-        case "--image" => {
+        case "--image" =>
           if (i + 1 >= args.length) {
             throw new Exception("image file not specified!")
           }
@@ -74,8 +72,7 @@ class ConsoleParser {
           img_count += 1
           img = Some(Left(ExistImg(args(i + 1))))
           i += 2
-        }
-        case "--image-random" => {
+        case "--image-random" =>
           if (img_count != 0)
           {
             throw new Exception("only one --image* can be specified!")
@@ -83,20 +80,16 @@ class ConsoleParser {
           img_count += 1
           img = Some(Right(RandomImg()))
           i += 1
-        }
-
-        case "--output-file" => {
+        case "--output-file" =>
           if (i + 1 >= args.length) {
             throw new Exception("output file not specified!")
           }
           outputs = outputs :+ inOutput("file", Some(args(i + 1)))
           i += 2
-        }
-        case "--output-console" => {
+        case "--output-console" =>
           outputs = outputs :+ inOutput("console")
           i += 1
-        }
-        case "--table" => {
+        case "--table" =>
           if (i + 1 >= args.length) {
             throw new Exception("--table name not specified!")
           }
@@ -106,8 +99,7 @@ class ConsoleParser {
           table_count += 1
           table = Some(Left(definedTable(args(i + 1))))
           i += 2
-        }
-        case "--custom-table" => {
+        case "--custom-table" =>
           if (i + 1 >= args.length) {
             throw new Exception("--custom-table characters not specified!")
           }
@@ -118,8 +110,7 @@ class ConsoleParser {
 
           custom_table_chars = args(i + 1)
           i += 2
-        }
-        case "--conversion-rules" => {
+        case "--conversion-rules" =>
           if (custom_table_chars.isEmpty) {
             throw new Exception("--custom-table argument not specified before --conversion-rules!")
           }
@@ -129,21 +120,18 @@ class ConsoleParser {
           val rules : List[Rule] = parseRules(args(i + 1))
           table = Some(Right(customTable(custom_table_chars, rules)))
           i += 2
-        }
-
-        case "--rotate" => {
+        case "--rotate" =>
           if (i + 1 >= args.length) {
             throw new Exception("rotation amount not specified!")
           }
 
           // check if number afterward
           if (! validateFilterDoubleArgs(args(i + 1))) {
-            throw new Exception("rotation amount is not a valid numerical!")
+            throw new Exception(s"rotation amount is not a valid numerical!")
           }
           filters = filters :+ inFilter("rotate", Some(args(i + 1)))
           i += 2
-        }
-        case "--scale" => {
+        case "--scale" =>
           if (i + 1 >= args.length) {
             throw new Exception("scale amount not specified!")
           }
@@ -154,11 +142,11 @@ class ConsoleParser {
           }
           filters = filters :+ inFilter("scale", Some(args(i + 1)))
           i += 2
-        }
-        case "--invert" => {
+        case "--invert" =>
           filters = filters :+ inFilter("invert")
           i += 1
-        }
+        case unknown =>
+          throw new Exception(s"invalid argument: ${unknown}")
       }
     }
 
@@ -169,11 +157,7 @@ class ConsoleParser {
       throw new Exception("output not specified")
     }
 
-    if (table.isEmpty) {
-      throw new Exception("table not specified")
-    }
-
-    consoleParsed(img.get, outputs, table.get, filters)
+    consoleParsed(img.get, outputs, table, filters)
   }
 
 }
