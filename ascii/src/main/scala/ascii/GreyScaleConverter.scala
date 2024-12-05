@@ -6,7 +6,7 @@ class GreyScaleConverter {
   def convert_buffered(img: BufferedImage): GreyScaleImg = {
     val width = img.getWidth()
     val height = img.getHeight()
-    var img_arr = Array.ofDim[Int](width, height)
+    val img_arr = Array.ofDim[Int](width, height)
 
     // loop through pixels:
     for (x <- 0 until width)

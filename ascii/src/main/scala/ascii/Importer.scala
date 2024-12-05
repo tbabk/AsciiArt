@@ -15,7 +15,7 @@ class Importer {
   }
 
   def importing(file_path: String) : BufferedImage = {
-    var file_extension = getFileExtension(file_path)
+    val file_extension = getFileExtension(file_path)
     file_extension match {
       case Some(ext) => ext match {
         case "jpg" | "jpeg" | "png" => importingJPGPNG(file_path)
@@ -30,7 +30,7 @@ class Importer {
   }
 
   private def importingJPGPNG(file_path : String) : BufferedImage = {
-    var jpg_png_loader : JpgPngLoader = new JpgPngLoader()
+    val jpg_png_loader : JpgPngLoader = new JpgPngLoader()
     jpg_png_loader.load(file_path)
   }
 }

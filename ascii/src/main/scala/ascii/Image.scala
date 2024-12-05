@@ -7,16 +7,16 @@ type Matrix[T] = Array[Array[T]]
 
 
 class Image[T: ClassTag] (width_ : Int, height_ : Int, img_arr: Matrix[T]) {
-  var width: Int = width_
-  var height: Int = height_
+  private val width: Int = width_
+  private val height: Int = height_
 
-  var img: Matrix[T] = Array.ofDim[T](height, width)
+  private val img: Matrix[T] = Array.ofDim[T](height, width)
   for (i <- 0 until height; j <- 0 until width) {
       img(i)(j) = img_arr(i)(j)
   }
 
 
-  def checkBounds(y: Int, x: Int): Unit = {
+  private def checkBounds(y: Int, x: Int): Unit = {
     if (x < 0 || x >= width || y < 0 || y >= height) {
       throw new IndexOutOfBoundsException(s"Index ($x, $y) out of bounds.")
     }

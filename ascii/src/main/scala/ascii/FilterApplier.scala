@@ -32,9 +32,4 @@ class FilterApplier(inputImg: GreyScaleImg) {
     }
     img
   }
-  // def runActual(): GreyScaleImg = {
-  //  // TODO
-  //  img
-  // }
-  // def getLength() : Int = length
 }

@@ -146,7 +146,7 @@ class ConsoleParser {
           filters = filters :+ inFilter("invert")
           i += 1
         case unknown =>
-          throw new Exception(s"invalid argument: ${unknown}")
+          throw new Exception(s"invalid argument: $unknown")
       }
     }
 

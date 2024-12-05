@@ -8,8 +8,8 @@ def validateFilterDoubleArgs(arg: String): Boolean = {
 }
 
 def isValidCustomTable(table: customTable) : Boolean = {
-  var charsSet = mutable.Set[Char]()
-  var rulesSet = mutable.Set[Char]()
+  val charsSet = mutable.Set[Char]()
+  val rulesSet = mutable.Set[Char]()
 
   // ++= adds all characters to the set
   charsSet ++= table.characters

@@ -9,16 +9,15 @@ abstract class Transform(greyscale_max_val: Int) {
   def isValid(in: Int): Boolean = {
     if (in < 0 || in > greyscale_max_val) false else true
   }
-//  def getAscii(in: Int) : Option[Char]
+
   def getAscii(in: Int): Option[Char] = {
     if (isValid(in)) Some(table(in)) else None
   }
 }
 
 class LinearTransform(ascii_chars : String, greyscale_max_val : Int) extends Transform(greyscale_max_val) {
-//  val table : Array[Char] = Array.ofDim[Char](greyscale_max_val + 1)
   var it = 0
-  private var own : Int = (greyscale_max_val + 1) / (ascii_chars.length)
+  private val own : Int = (greyscale_max_val + 1) / ascii_chars.length
 
   private var ascii_idx = 0
 
@@ -30,14 +29,6 @@ class LinearTransform(ascii_chars : String, greyscale_max_val : Int) extends Tra
     }
     ascii_idx += 1
   }
-
-//  def isValid(in: Int) : Boolean = {
-//    if (in < 0 || in > greyscale_max_val) false else true
-//  }
-
-//  override def getAscii(in: Int): Option[Char] = {
-//    if (isValid(in)) Some(table(in)) else None
-//  }
 }
 
 case class NonLinearClass(ascii: Char, min_gs: Int, max_gs: Int)
@@ -53,7 +44,7 @@ class NonLinearTransform(ascii_chars : ArrayBuffer[NonLinearClass], greyscale_ma
     var it = as.min_gs
     while (it <= as.max_gs) {
       if (table(it) != '\u0000') {
-        throw new Exception(s"Redefinition of greyscale value for index ${it}!")
+        throw new Exception(s"Redefinition of greyscale value for index $it!")
       }
       table(it) = as.ascii
       it += 1
@@ -63,7 +54,7 @@ class NonLinearTransform(ascii_chars : ArrayBuffer[NonLinearClass], greyscale_ma
 }
 
 object PredefinedTransforms {
-  private var transforms : Map[String, Transform] = Map(
+  private val transforms : Map[String, Transform] = Map(
     "Bourke-Small" -> new LinearTransform(" .:-=+*#%@", 255),
     "Bourke-Big" -> new LinearTransform("$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. ", 255)
   )
